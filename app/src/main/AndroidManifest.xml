@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ims.informationmanagementsystem">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Home.MainActivity" />
+        <activity android:name=".Home.AddForm" />
+        <activity android:name=".Event.Main2Activity" />
+        <activity android:name=".Event.AddEvent" />
+        <activity android:name=".computer.Datesheet.MainDateComputerActivity" />
+        <activity android:name=".computer.Datesheet.AddDateCom" />
+        <activity android:name=".computer.Result.Main3Activity" />
+        <activity android:name=".computer.Result.AddComResult" />
+        <activity android:name=".Physics.PhyDate.Main4Activity" />
+        <activity android:name=".Physics.PhyDate.AddPhyDate" />
+        <activity android:name=".Physics.PhyResult.Main5Activity" />
+        <activity android:name=".Physics.PhyResult.AddPhyResult" />
+        <activity android:name=".Chemistry.CheDate.Main6Activity" />
+        <activity android:name=".Chemistry.CheDate.AddCheDate" />
+        <activity android:name=".Chemistry.CheResult.Main7Activity" />
+        <activity android:name=".Chemistry.CheResult.AddCheResult" />
+        <activity android:name=".Activities.Main8Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.Main9Activity" />
+        <activity android:name=".Activities.Main10Activity" />
+        <activity android:name=".Activities.Main11Activity" />
+        <activity android:name=".Activities.Main12Activity" />
+        <activity android:name=".Activities.Main13Activity" />
+        <activity android:name=".Activities.Main14Activity" />
+        <activity android:name=".Activities.Main15Activity" />
+        <activity android:name=".Activities.Main16Activity" />
+        <activity android:name=".Activities.Main17Activity" />
+        <activity android:name=".Activities.Main18Activity" />
+        <activity android:name=".DeleteActivities.Main19Activity"></activity>
+    </application>
+
+</manifest>

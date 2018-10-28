@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ims.informationmanagementsystem.computer.Result.AddComResult">
+
+    <EditText
+        android:id="@+id/editTextcomResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageViewcomResult"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/imageViewcomResult"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="41dp" />
+
+    <ImageView
+        android:id="@+id/imageViewcomResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/choosecomResult"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="66dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginRight="127dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <Button
+        android:id="@+id/choosecomResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/addcomResult"
+        android:layout_alignLeft="@+id/imageViewcomResult"
+        android:layout_alignStart="@+id/imageViewcomResult"
+        android:layout_marginBottom="33dp"
+        android:text="chooseComResult"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="280dp" />
+
+    <Button
+        android:id="@+id/addcomResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageViewcomResult"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageViewcomResult"
+        android:layout_marginBottom="63dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:text="AddComResult"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="374dp" />
+</RelativeLayout>

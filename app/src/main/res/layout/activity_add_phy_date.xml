@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ims.informationmanagementsystem.Physics.PhyDate.AddPhyDate"
+    android:background="@drawable/nn"
+    >
+
+    <Button
+        android:id="@+id/btnPD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnchoosePD"
+        android:layout_marginLeft="44dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="37dp"
+        android:background="@android:color/background_dark"
+        android:text="AddPhydate"
+        android:textColor="@android:color/background_light"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="332dp" />
+
+    <Button
+        android:id="@+id/btnchoosePD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageViewPD"
+        android:layout_alignRight="@+id/imageViewPD"
+        android:layout_below="@+id/imageViewPD"
+        android:layout_marginTop="69dp"
+        android:text="choose"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="258dp" />
+
+    <EditText
+        android:id="@+id/editTextPD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageViewPD"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/imageViewPD"
+        android:layout_marginTop="46dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="26dp" />
+
+    <ImageView
+        android:id="@+id/imageViewPD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextPD"
+        android:layout_marginTop="44dp"
+        android:layout_toEndOf="@+id/btnPD"
+        android:layout_toRightOf="@+id/btnPD"
+        app:srcCompat="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="130dp" />
+</RelativeLayout>
